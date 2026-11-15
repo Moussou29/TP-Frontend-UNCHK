@@ -1,0 +1,93 @@
+/* =========================================
+   STYLE GLOBAL
+   ========================================= */
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #333;
+}
+
+/* =========================================
+   CARROUSEL
+   ========================================= */
+.carousel-img {
+    height: 500px; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+@media (max-width: 768px) {
+    .carousel-img { height: 300px; }
+}
+
+/* =========================================
+   BANNIÈRES ORANGE & BLEU
+   ========================================= */
+.bg-orange { background-color: #e88b18; }
+.bg-blue { background-color: #0076b6; }
+
+.banner-btn {
+    transition: all 0.3s ease;
+    min-height: 200px;
+    cursor: pointer;
+}
+
+.bg-orange:hover { background-color: #d17b10; }
+.bg-blue:hover { background-color: #005f94; }
+
+/* Liens Vision/Valeurs */
+.hover-green:hover { color: #15983A !important; }
+
+/* =========================================
+   CARTES ACTUALITÉS
+   ========================================= */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.card-img-top {
+    border-bottom: 3px solid #15983A; 
+}
+
+/* =========================================
+   SECTION COMMUNIQUÉS (Bleu UNCHK)
+   ========================================= */
+.bg-primary {
+    background-color: #36348E !important; 
+}
+.bg-primary a:hover {
+    text-decoration: underline !important;
+}
+
+/* =========================================
+   BOUTONS VIE ESTUDIANTINE
+   ========================================= */
+.btn-outline-warning {
+    color: #f5b324;
+    border-color: #f5b324;
+}
+.btn-outline-warning:hover {
+    background-color: #f5b324;
+    color: white;
+}
+
+/* =========================================
+   NAVBAR
+   ========================================= */
+.navbar-nav .nav-link:hover {
+    color: #15983A !important; 
+}
+.btn-outline-primary {
+    color: #36348E;
+    border-color: #36348E;
+}
+.btn-outline-primary:hover {
+    background-color: #36348E;
+    color: white;
+}
